@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.appointment-card {
+  border: 1px solid grey;
+  width: 240px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.title-and-star {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1px;
+}
+.appointment-card-title {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: bold;
+}
+.card-date {
+  line-height: 1px;
+  color: #b5b7c4;
+}
+.button {
+  border: none;
+  background-color: transparent;
+}

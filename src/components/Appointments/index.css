@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 35px;
+}
+.card-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+}
+.input-and-text {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+}
+.add-button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-family: roboto;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+}
+.appointments-image {
+  width: 400px;
+  margin-left: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .appointments-image {
+    display: none;
+  }
+}
+.input-text {
+  padding: 10px;
+  margin-top: 8px;
+}
+.image-and-text-container {
+  display: flex;
+  flex-direction: row;
+}
+.appointment-and-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.appointment-name {
+  font-family: roboto;
+  font-weight: 800;
+  font-size: 16px;
+}
+.starred-button {
+  background-color: transparent;
+  color: #9897f0;
+  border: 1px solid #9897f0;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.appointment-cards-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-cards-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
